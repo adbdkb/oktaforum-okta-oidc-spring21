@@ -6,17 +6,17 @@ spring:
       client:
         registration:
           okta:
-            client-id: 0oaj02emafDBjcFpM0h7
-            client-secret: l-WC7l9ySU-NA6PFHB4o1jM8kt5gYc1ZNyRQMHvK
+            client-id: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            client-secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         provider:
           okta:
-            issuer-uri: https://dev-718075.oktapreview.com/oauth2/default
-            authorization-uri: https://dev-718075.oktapreview.com/oauth2/default/v1/authorize
-            token-uri: https://dev-718075.oktapreview.com/oauth2/default/v1/token
-            user-info-uri: https://dev-718075.oktapreview.com/oauth2/default/v1/userinfo
-            jwk-set-uri: https://dev-718075.oktapreview.com/oauth2/default/v1/keys
+            issuer-uri: https://dev-xxxxxx.oktapreview.com/oauth2/default
+            authorization-uri: https://dev-xxxxxx.oktapreview.com/oauth2/default/v1/authorize
+            token-uri: https://dev-xxxxxx.oktapreview.com/oauth2/default/v1/token
+            user-info-uri: https://dev-xxxxxx.oktapreview.com/oauth2/default/v1/userinfo
+            jwk-set-uri: https://dev-xxxxxx.oktapreview.com/oauth2/default/v1/keys
 
-#    issuer: https://dev-718075.oktapreview.com/oauth2/default
+#    issuer: https://dev-xxxxxx.oktapreview.com/oauth2/default
 #    clientId: 0oaj02emafDBjcFpM0h7
 #    clientSecret: l-WC7l9ySU-NA6PFHB4o1jM8kt5gYc1ZNyRQMHvK
 
@@ -55,7 +55,7 @@ spring:
 #      client:
 #        provider:
 #          okta:
-#            issuer-uri: https://dev-718075.oktapreview.com/oauth2/default
+#            issuer-uri: https://dev-xxxxxx.oktapreview.com/oauth2/default
 #        registration:
 #          okta:
 #            client-id: {clientId}
