@@ -29,9 +29,9 @@ public class ExampleApplication {
         @Override
         protected void configure(HttpSecurity http) throws Exception {
             http
-                    .authorizeRequests().anyRequest().authenticated()
-                    .and()
-                    .oauth2ResourceServer().jwt();
+                .authorizeRequests().anyRequest().authenticated()
+                .and()
+                .oauth2ResourceServer().jwt();
         }
     }
 }
